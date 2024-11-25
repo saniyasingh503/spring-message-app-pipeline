@@ -10,7 +10,7 @@ public class MessageController {
 	
 	@GetMapping
 	public String sendMessage() {
-		return "Spring boot is up and running";
+		return "Spring boot is up and running and successfully deployed in ebs";
 	}
 
 }

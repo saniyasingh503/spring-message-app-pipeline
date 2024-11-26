@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-alpine
+FROM openjdk:17-jdk-slim as build
 
 COPY target/spring-message-app.jar spring-message-app.jar
 

@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-alpine
+FROM amazoncorretto:17-alpine
 
 COPY target/spring-message-app.jar /spring-message-app.jar
 

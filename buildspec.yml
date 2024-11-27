@@ -3,16 +3,13 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: openjdk17
+      java: corretto17
     commands:
       # Install Docker
       - echo Installing Docker...
       - yum install -y docker
       - service docker start
       - docker info
-      - echo Installing Amazon Corretto 17...
-      - curl -O https://corretto.aws/downloads/latest/amazon-corretto-17-x86_64-linux-jdk.rpm
-      - yum localinstall -y amazon-corretto-17-x86_64-linux-jdk.rpm
 
   pre_build:
     commands:

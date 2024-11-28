@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /target/spring-message-app.jar
     destination: /tmp/deployment
 
 hooks:

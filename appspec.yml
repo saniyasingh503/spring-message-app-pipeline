@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/spring-message-app.jar
-    destination: /tmp/deployment
+  - source: /spring-message-app.jar 
+    destination: /opt/myapp/
 
 hooks:
   BeforeInstall:

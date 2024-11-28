@@ -28,4 +28,6 @@ phases:
 
 artifacts:
   files:
-    - target/spring-message-app.jar
+    - "**/*"              
+  base-directory: "./"   
+  discard-paths: no
